@@ -1,18 +1,21 @@
-1.ÅäÖÃ
+1.é…ç½®
 git config --global user.name "XXX"
 git config --global user.email "XXX@XX.com"
 
-2.´´½¨°æ±¾¿â
-mkdir XXX		//ĞÂ½¨Ò»¸öÎÄ¼ş¼Ğ
-cd XXX			//×ªÖÁÄ¿Â¼XXX
-pwd				//ÏÔÊ¾µ±Ç°Ä¿Â¼
-git init 		//½«µ±Ç°Ä¿Â¼±ä³ÉGit²Ö¿â
+2.åˆ›å»ºç‰ˆæœ¬åº“
+mkdir XXX		//æ–°å»ºä¸€ä¸ªæ–‡ä»¶å¤¹
+cd XXX			//è½¬è‡³ç›®å½•XXX
+pwd				//æ˜¾ç¤ºå½“å‰ç›®å½•
+git init 		//å°†å½“å‰ç›®å½•å˜æˆGitä»“åº“
 
-3.Ìí¼ÓÎÄ¼şµ½°æ±¾¿â
+3.æ·»åŠ æ–‡ä»¶åˆ°ç‰ˆæœ¬åº“
 git add XXX.XXX XXX.XXX
-git commit -m "XXXXX"		//ºóÃæÎª½âÊÍÎÄ±¾
+git commit -m "XXXXX"		//åé¢ä¸ºè§£é‡Šæ–‡æœ¬
 
-4.Ê±¿Õ´©Ëó
-git status					//²é¿´²Ö¿âµ±Ç°×´Ì¬
-git diff					//²é¿´¾ßÌåĞŞ¸ÄÄÚÈİ
+4.æŸ¥çœ‹ä¿¡æ¯
+git status					//æŸ¥çœ‹ä»“åº“å½“å‰çŠ¶æ€
+git diff					//æŸ¥çœ‹å…·ä½“ä¿®æ”¹å†…å®¹
+
+5.æ—¶ç©ºç©¿æ¢­ -- ç‰ˆæœ¬æ§åˆ¶
+git log	--oneline			//æŸ¥çœ‹commitè®°å½• -- æ˜¾ç¤ºcommit id
 
