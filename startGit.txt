@@ -1,0 +1,17 @@
+1.配置
+git config --global user.name "XXX"
+git config --global user.email "XXX@XX.com"
+
+2.创建版本库
+mkdir XXX		//新建一个文件夹
+cd XXX			//转至目录XXX
+pwd				//显示当前目录
+git init 		//将当前目录变成Git仓库
+
+3.添加文件到版本库
+git add XXX.XXX XXX.XXX
+git commit -m "XXXXX"		//后面为解释文本
+
+4.时空穿梭
+git status					//查看仓库当前状态
+
