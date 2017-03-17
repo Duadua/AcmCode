@@ -15,7 +15,11 @@ git commit -m "XXXXX"		//后面为解释文本
 4.查看信息
 git status					//查看仓库当前状态
 git diff					//查看具体修改内容
+cat XXX.XXX					//查看内容
 
 5.时空穿梭 -- 版本控制
 git log	--oneline			//查看commit记录 -- 显示commit id
-
+git reset --hard HEAD^		//回退到上一个版本
+							//HEAD^^即为上上个版本
+							//HEAD~100即为往上100个版本
+git reset -- hard XXXXXXX	//XXXXXXX为commit id
