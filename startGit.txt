@@ -25,3 +25,21 @@ git reset --hard HEAD^		//回退到上一个版本
 git reset -- hard XXXXXXX	//XXXXXXX为commit id -- 可以更新到未来的版本
 git reflog					//查看命令历史 -- 可以找到所有版本的c-id
 
+6.撤销修改
+git checkout -- XXX.XXX		//直接丢弃文件在工作区的修改(包括删除)
+							//即将文件恢复到最近一次add或commit处
+git reset HEAD XXX.XXX		//将文件暂存区的修改回退到工作区
+							//即将文件恢复到最近一次commit
+7.文件删除
+git rm XXX.XXX
+git commit -m "XXXX"
+							
+							
+							
+							
+							
+							
+							
+
+
+
