@@ -15,3 +15,4 @@ git push origin master
 5.克隆远程仓库
 git clone git@github.com:Duadua/GameCode.git
 //注意选择好目录，会在当前目录下生成一个与远程仓库名同名的文件夹
+//over
