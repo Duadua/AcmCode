@@ -22,4 +22,6 @@ git log	--oneline			//查看commit记录 -- 显示commit id
 git reset --hard HEAD^		//回退到上一个版本
 							//HEAD^^即为上上个版本
 							//HEAD~100即为往上100个版本
-git reset -- hard XXXXXXX	//XXXXXXX为commit id
+git reset -- hard XXXXXXX	//XXXXXXX为commit id -- 可以更新到未来的版本
+git reflog					//查看命令历史 -- 可以找到所有版本的c-id
+
