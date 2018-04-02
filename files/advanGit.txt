@@ -1,0 +1,18 @@
+1.添加SSH Key
+ssh-keygen -t rsa -C "XXXX@XXX.com"		//生成私钥和公钥
+//然后将id_rsa.pub里的内容复制到github上去
+
+2.在gitHub上建立好repository
+
+3.关联本地仓库
+git remote add origin git@github.com:Duadua/AcmCode.git
+
+4.推送
+git push -u origin master
+//本地的master和远程的master绑定之后可用
+git push origin master
+
+5.克隆远程仓库
+git clone git@github.com:Duadua/GameCode.git
+//注意选择好目录，会在当前目录下生成一个与远程仓库名同名的文件夹
+//over

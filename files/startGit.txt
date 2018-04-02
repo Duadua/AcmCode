@@ -1,0 +1,45 @@
+1.配置
+git config --global user.name "XXX"
+git config --global user.email "XXX@XX.com"
+
+2.创建版本库
+mkdir XXX		//新建一个文件夹
+cd XXX			//转至目录XXX
+pwd				//显示当前目录
+git init 		//将当前目录变成Git仓库
+
+3.添加文件到版本库
+git add XXX.XXX XXX.XXX
+git commit -m "XXXXX"		//后面为解释文本
+
+4.查看信息
+git status					//查看仓库当前状态
+git diff					//查看具体修改内容
+cat XXX.XXX					//查看内容
+
+5.时空穿梭 -- 版本控制
+git log	--oneline			//查看commit记录 -- 显示commit id
+git reset --hard HEAD^		//回退到上一个版本
+							//HEAD^^即为上上个版本
+							//HEAD~100即为往上100个版本
+git reset -- hard XXXXXXX	//XXXXXXX为commit id -- 可以更新到未来的版本
+git reflog					//查看命令历史 -- 可以找到所有版本的c-id
+
+6.撤销修改
+git checkout -- XXX.XXX		//直接丢弃文件在工作区的修改(包括删除)
+							//即将文件恢复到最近一次add或commit处
+git reset HEAD XXX.XXX		//将文件暂存区的修改回退到工作区
+							//即将文件恢复到最近一次commit
+7.文件删除
+git rm XXX.XXX
+git commit -m "XXXX"
+							
+							
+							
+							
+							
+							
+							
+
+
+
